@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipe"
+    android:elevation="10dp"
+    app:cardCornerRadius="5dp"
+    android:padding="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_height="wrap_content">
+
+<android.support.constraint.ConstraintLayout
+    android:id="@+id/bottom_wraper"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/title"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="First Note"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+        android:gravity="center"
+        android:textColor="#07253b"
+        app:layout_constraintTop_toTopOf="parent"
+       android:layout_marginTop="5dp"
+
+        />
+    <TextView
+        android:id="@+id/date"
+        android:textSize="16sp"
+        android:textColor="#07253b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        tools:text="2/3/1997"
+        app:layout_constraintStart_toStartOf="parent" />
+</android.support.constraint.ConstraintLayout>
+</android.support.v7.widget.CardView>

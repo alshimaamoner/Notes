@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="title_activity_home">Note</string>
+    <string name="success">success</string>
+    <string name="ok">ok</string>
+    <string name="TodoAddedSuccess">added</string>
+    <string name="update">update</string>
+    <string name="snack_bar_text">undo</string>
+    <string name="snack_bar_undo">undo Note</string>
+</resources>
